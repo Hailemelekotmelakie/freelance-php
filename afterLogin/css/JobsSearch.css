@@ -1,0 +1,60 @@
+
+  /*Search jobs*/
+
+.divOutterForSearch {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: #d9edf7;
+   font-family: 'Open Sans', sans-serif;
+   /*color: #fff;*/
+}
+select {
+   -webkit-appearance:none;
+   -moz-appearance:none;
+   -ms-appearance:none;
+   appearance:none;
+   outline:0;
+   box-shadow:none;
+   border:0!important;
+   background: #5c6664;
+   background-image: none;
+   flex: 1;
+   padding: 0 .5em;
+   color:#fff;
+   cursor:pointer;
+   font-size: 17px;
+   font-family: 'Open Sans', sans-serif;
+}
+select::-ms-expand {
+   display: none;
+}
+.selectSearch {
+   position: relative;
+   display: flex;
+   width: auto;
+   height: 36em;
+   line-height: 3;
+   background: black;
+   opacity: 0.8;
+   overflow: hidden;
+   border-radius: .25em;
+   height: auto;
+
+}
+/*.selectSearch::after {
+   content: '\25BC';
+   position: absolute;
+   top: 10;
+   right: 0;
+   padding: 0 1em;
+   background: #2b2e2e;
+   cursor:pointer;
+   pointer-events:none;
+   color: white;
+   transition:.25s all ease;
+}
+*/.selectSearch:hover::after {
+   color: #23b499;
+}

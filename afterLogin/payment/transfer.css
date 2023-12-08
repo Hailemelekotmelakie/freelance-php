@@ -1,0 +1,440 @@
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+
+h1 {
+	color: #ccc;
+	text-align: center;
+}
+h4.payment-title {
+    text-align: left;
+    padding: 10px 0px 30px 30px;
+    font-weight: 500;
+    color: #5e6977;
+}
+a {
+  color: #ccc;
+  text-decoration: none;
+  outline: none;
+}
+
+.tab_container {
+    width: 550px;
+    margin: 50px auto;
+    position: relative;
+    border: 1px solid #eee;
+    border-radius: 7px;
+  background:#fff;
+}
+
+input, section {
+  clear: both;
+  padding-top: 10px;
+  display: none;
+}
+
+label {
+  font-weight: 700;
+  font-size: 14px;
+  display: block;
+  float: left;
+  padding: 20px 14px;
+  color: #ccc;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background: #fff;
+  margin-bottom: 2px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom:2px solid #eee;
+
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+  padding: 20px 0 0 0;
+  color: #999;
+}
+
+.tab_container .tab-content h3  {
+  text-align: center;
+}
+
+.tab_container [id^="tab"]:checked + label {
+  background: #fff;
+  border-bottom:2px solid #358ed7;
+  color: #358ed7;
+}
+
+.tab_container [id^="tab"]:checked + label>span.numberCircle {
+  border: 2px solid #358ed7;
+  border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 3px 5px;
+    text-align: center;
+    font-size: 10px;
+    margin: 3px 8px
+}
+
+label:hover {
+background-color:#eee;
+  border-radius:0px;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 3px 5px;
+    border: 2px solid #ccc;
+    text-align: center;
+    font-size: 10px;
+    margin: 3px 8px
+}
+
+
+.row-payment-method {
+  margin: 0px 0px 0px 0px;
+  padding: 22px 0px 11px 0px;
+  text-align: left;
+  display: table;
+}
+.payment-row {
+  background-color: #f5f6fa;
+  padding-left: 30px;
+  padding-right: 30px;
+      width: 100%;
+}
+.payment-row-last {
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 100%;
+}
+
+.payment-padding-right {
+  
+}
+.select-icon {
+  display: table-cell;
+  vertical-align: top;
+  text-align: left;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  width: 24px;
+  height: 24px;
+}
+
+.select-txt {
+  display: table-cell;
+  vertical-align: middle;
+  word-wrap: break-word;
+  height: 60px;
+  text-align: left;
+  padding-left: 15px;
+  font-size: 12pt;
+}
+.select-logo {
+  padding-right: 0px;
+  vertical-align: top;
+      right: 35px;
+    position: absolute;
+}
+.select-logo-sub {
+  display: table-cell;
+  vertical-align: middle;
+}
+.logo-spacer {
+  padding-right: 13px;
+}
+.pymt-type-name {
+  font-weight: 500;
+  font-size: 12pt;
+  padding-bottom: 8px;
+  color: #5a6977;
+}
+.pymt-type-desc {
+  padding-bottom: 22px;
+  width:70%;
+    font-size:14px;
+}
+.hr {
+  border-bottom: 1px solid #ebf0f5;
+  padding-bottom: 5px;
+}
+.form-cc {
+  display: table;
+  width: 100%;
+  text-align: left;
+  padding: 0px 0px 30px 30px;
+}
+.row-cc {
+  display: table;
+  width: 100%;
+  padding-bottom: 7px;
+}
+.cc-txt {
+  border-color: #e1e8ee;
+  width: 100%;
+}
+.input {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  height: 38px;
+  padding-left: 15px;
+  font-weight: 600;
+  font-size: 11pt;
+  color: #5e6977;
+ 
+}
+input[type="text"] {
+   display: initial;
+  padding:15px
+}
+.text-validated {
+  border-color: #7DC855;
+  background-image: url("https://www.dropbox.com/s/1mve74fafiwsae1/icon-tick.png?raw=1");
+  background-repeat: no-repeat;
+  background-position: right 18px center;
+}
+.cc-ddl {
+  border-color: #f0f4f7;
+  background-color: #f0f4f7;
+      width: 100px;
+    margin-right: 10px;
+
+  
+}
+.cc-title {
+  font-size: 10.5pt;
+  padding-bottom: 8px;
+}
+.cc-field {
+  padding-top: 15px;
+  padding-right: 30px;
+  display: table-cell;
+}
+.button-master-container, .button-master-container:hover {
+  display: table;
+  width: 100%;
+  border-top: 1px solid #e1e8ee;
+  height: 60px;
+  vertical-align: bottom;
+}
+.button-container {
+  width: 50%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+a, a:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+.button-container:hover {
+background-color:#eee;
+  cursor:pointer;
+}
+.button-finish {
+  border-left: 1px solid #e1e8ee;
+  color: #7DC855;
+  font-weight: 500;
+  font-size: 12pt;
+  background-image: url("https://www.dropbox.com/s/10d95otbo48r0hh/icon-next.png?raw=1");
+  background-repeat: no-repeat;
+  background-position: right 50px center;
+}
+.cvv-tooltip-img {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 17px;
+}
+input[id^="radio"]{
+   display:none;
+}
+
+input[id^="radio"] + label
+{
+    background-image:url("https://www.dropbox.com/s/mnwbybfl4pnzoi4/radio-inactive.png?raw=1");
+    height: 26px;
+    width: 24px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    cursor:pointer;
+    border-radius: 50%;
+}
+
+input[id^="radio"]:checked + label
+{
+    background-image:url("https://www.dropbox.com/s/8634yi8i1s7fx7w/radio-active.png?raw=1");
+    height: 26px;
+    width: 24px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    cursor:pointer;
+}
+p.credit {
+  text-align:center;
+  color: #ccc;
+}
+.cc-txt:focus, .cc-txt:Active{
+    border-color: green !important;
+    outline-color: green;
+    border-radius: 20px;
+}
+.newText-validated{
+    border-color: red !important;
+    outline-color: #fa9c20;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    height: 38px;
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 11pt;
+    color: green;
+    border-color: red;
+    width: 100%;
+    border-color: red;
+    background-image: url(https://www.dropbox.com/s/1mve74fafiwsae1/icon-tick.png?raw=1);
+    background-repeat: no-repeat;
+    background-position: right 18px center;
+}
+    @media screen and (max-width: 600px) {
+        .imageLogo{
+          display: none;
+        }
+        .tab_container{
+          width: 100%;
+        }
+    }
+@media screen and (max-width: 600px) {
+        .imageLogoNew{
+          /*display: none;*/
+        }
+    }
+
+
+    /*modal start*/
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn, .deletebtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+  background-color: #f44336;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .deletebtn {
+     width: 100%;
+  }
+}
+
+/*modal ends*/

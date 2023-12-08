@@ -1,0 +1,17 @@
+[20-Jul-2022 20:12:38 Europe/London] PHP Notice:  Undefined variable: _SESSION in /home/huliesiracom/public_html/Default pages/afterLogin/messageInbox/inboxMessage.php on line 4
+[20-Jul-2022 20:12:38 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/huliesiracom/public_html/Default pages/afterLogin/messageInbox/inboxMessage.php on line 4
+[20-Jul-2022 20:12:38 Europe/London] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/huliesiracom/public_html/Default pages/afterLogin/messageInbox/inboxMessage.php on line 11
+[20-Jul-2022 20:12:38 Europe/London] PHP Notice:  Undefined variable: _SESSION in /home/huliesiracom/public_html/Default pages/afterLogin/messageInbox/inboxMessage.php on line 69
+[20-Jul-2022 20:12:38 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/huliesiracom/public_html/Default pages/afterLogin/messageInbox/inboxMessage.php on line 69
+[20-Jul-2022 20:12:38 Europe/London] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/huliesiracom/public_html/Default pages/afterLogin/messageInbox/inboxMessage.php on line 71
+[20-Jul-2022 20:12:38 Europe/London] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/huliesiracom/public_html/Default pages/afterLogin/messageInbox/inboxMessage.php on line 72
+[20-Jul-2022 20:12:38 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/huliesiracom/public_html/Default pages/afterLogin/messageInbox/inboxMessage.php on line 73
+[20-Jul-2022 20:12:38 Europe/London] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/huliesiracom/public_html/Default pages/afterLogin/messageInbox/inboxMessage.php on line 77
+[20-Jul-2022 20:12:38 Europe/London] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/huliesiracom/public_html/Default pages/afterLogin/messageInbox/inboxMessage.php on line 78
+[20-Jul-2022 20:12:38 Europe/London] PHP Notice:  Undefined variable: _SESSION in /home/huliesiracom/public_html/Default pages/afterLogin/messageInbox/inboxMessage.php on line 96
+[20-Jul-2022 20:12:38 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/huliesiracom/public_html/Default pages/afterLogin/messageInbox/inboxMessage.php on line 96
+[20-Jul-2022 20:12:38 Europe/London] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/huliesiracom/public_html/Default pages/afterLogin/messageInbox/inboxMessage.php on line 98
+[20-Jul-2022 20:12:38 Europe/London] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/huliesiracom/public_html/Default pages/afterLogin/messageInbox/inboxMessage.php on line 99
+[20-Jul-2022 20:12:38 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/huliesiracom/public_html/Default pages/afterLogin/messageInbox/inboxMessage.php on line 100
+[20-Jul-2022 20:12:38 Europe/London] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/huliesiracom/public_html/Default pages/afterLogin/messageInbox/inboxMessage.php on line 106
+[20-Jul-2022 20:12:38 Europe/London] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/huliesiracom/public_html/Default pages/afterLogin/messageInbox/inboxMessage.php on line 107

@@ -1,0 +1,56 @@
+
+.contentDivReadedUnreadedLists{
+	background-color: white;
+	padding: 0px 200px 200px 200px;
+	margin-top: 37px;
+
+}
+
+.readedNewDiv{
+	background: whitesmoke;
+	padding: 10px;
+	margin: 0px;
+	border: 1px solid #c8c8ce;
+	border-radius: 2px;
+	/*box-shadow: 0px 1px 5px #c8c8ce;*/
+
+}
+
+.unreadedNewDiv{
+	background: #d9edf7;
+	margin: 0px;
+	padding: 10px;
+	border: 1px solid #c8c8ce;
+	border-radius: 2px;
+}
+
+@media (max-width: 900px) {
+     
+		.contentDivReadedUnreadedLists{
+			padding: 0px 10px 10px 10px;
+			margin-top: 37px;
+			width: 100%;
+			}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,156 @@
+
+body {
+  /*background: #000;*/
+}
+
+.SuccessPopup {
+  position: fixed;
+  left: calc(30% - 3em);
+  top: calc(20% - 2em);
+  
+  height: auto;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  
+  background: #7c6ee1;
+  background: linear-gradient(top, #555, #333);
+  border: none;
+  border-top: 30px solid green;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 0 0 0.2em 0.2em;
+  color: #fff;
+  font-family: Helvetica, Arial, Sans-serif;
+  transform-origin: 50% 5em;
+  border-radius: 20px;
+  z-index: 10;
+}
+
+/*Reviews start*/
+
+ /*Popup buttom*/
+        
+        /* Button used to open the contact form - fixed at the bottom of the page */
+/*      .open-button {
+        background-color: red;
+        color: white;
+        padding: 2px 2px 2px 2px;
+        border: none;
+        cursor: pointer;
+        opacity: 0.8;
+        justify-content: center;
+        text-align: center;
+        justify-items: center;
+        border-radius: 4px;
+        width: auto;
+      }
+*/
+      /* The popup form - hidden by default */
+      /*.form-popup {*/
+        /*background-color: red;*/
+        /*opacity: 90%;*/
+        /*display: none;
+        position: relative !important;*/
+        /*overflow: hidden;*/
+        /*border: 3px solid #f1f1f1;*/
+        /*border-radius: 30px;*/
+        /*top: 50%;
+        left: 50%;
+        margin-top: -400px;
+        margin-left: -100px;*/
+      /*}*/
+
+      /* Add styles to the form container */
+      .form-container {
+        width: 100%;
+        /*padding: 10px;*/
+        background-color: #94c2ed;
+        border-radius: 6px;
+      }
+
+      /* Full-width input fields */
+       .textareaInput {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        resize: none;
+        height: 60px;
+      }
+
+      /* When the inputs get focus, do something */
+       .textareaInput:focus {
+        background-color: #fff;
+        outline: none;
+      }
+
+      /* Set a style for the submit/login button */
+      .form-container .btn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 30%;
+        margin-bottom:10px;
+        opacity: 0.8;
+      }
+
+      /* Add a red background color to the cancel button */
+      .form-container .cancel {
+        background-color: black;
+        opacity: 50%;
+        font-size: 16px;
+      }
+
+      /* Add some hover effects to buttons */
+      .form-container .btn:hover, .open-button:hover {
+        opacity: 1;
+      }
+
+                    @media screen and (max-width:800px) {
+                      .form-container .btn {
+                          padding: 8px 10px;
+                          border: none;
+                          cursor: pointer;
+                          width: auto;
+                          margin-bottom:5px;
+                          opacity: 0.8;
+                        }
+                    }
+
+
+
+#myBtnScroll {
+  /*display: none;*/
+  position: relative;
+  /*bottom: 20px;
+  right: 30px;*/
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  float: right;
+  background-color: #1dbf73;
+  opacity: 0.8;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 4px;
+}
+
+#myBtnScroll:hover {
+opacity: 1;
+}
+.innerDivForReview{
+  padding: 20px;
+}
+/*Reviews end

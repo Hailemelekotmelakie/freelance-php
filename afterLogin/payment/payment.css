@@ -1,0 +1,239 @@
+
+        /*bootsstrap override*/
+.tab_container{
+  margin-top: 3px !important;
+}
+.btn-container{
+  margin-top: 3px !important;
+}
+/*ovverid ends*/
+.row{
+width: 100%;
+margin-bottom:5px;
+}
+.menusContainer{
+  float: left;
+  width: 25%;
+}
+.extendedContainer{
+  float: right;
+  width: 75%;
+}
+.menusContainerInner{
+  background-color: white;
+  box-shadow: 0px 0px 20px 4px #888888;
+  border-radius: 8px;
+  padding: 0px;
+  margin: 12px 5px 5px 50px;
+}
+.extendedContainerInner{
+  background-color: white;
+  box-shadow: 0px 0px 20px 4px #888888;
+  border-radius: 8px;
+  padding: 0px;
+  margin: 12px 30px 5px 50px;
+}
+@media screen and (max-width: 799px) {
+        .menusContainer{
+            display: block;
+            width: 100%;
+          }
+        .extendedContainer{
+            display: block;
+            width: 100%;
+          }
+
+} 
+
+
+/*buttons*/
+#btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.custom-btn {
+  width: 200px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  margin: 5px;
+}
+
+/* 13 */
+.btn-13 {
+  background-color: #89d8d3;
+  background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+  border: none;
+  z-index: 1;
+  text-decoration: none;
+}
+.innerSelected{
+  background-color: red !important;
+  /*background-color: #89d8d3;*/
+  background-image: linear-gradient(315deg, #0300a8 30%, #00850c 74%);
+  border: none;
+  z-index: 1;
+  text-decoration: none;
+}
+.btn-13:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 5px;
+   background-color: #4dccc6;
+background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+
+}
+.btn-13:hover ,{
+  color: #fff;
+}
+.btn-13:hover:after {
+  top: 0;
+  height: 100%;
+}
+.btn-13:active {
+  top: 2px;
+}
+
+@media screen and (max-width: 799px){
+      #btn-container {
+        flex-direction: row;
+        display: inline-block;
+        width: 100%;
+        height: auto;
+      }
+      .custom-btn{
+      margin: 5px;
+      float: right;
+      width: auto;
+      height: auto;
+      padding: 5px;
+      font-size: 10px;
+      }
+}
+
+
+#scroll-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+/*bootstrap*/
+.btn-default{
+  background-color: #888888;
+}
+.btn-default:hover{
+  background-color: #999;
+}
+/*password*/
+a, a:hover{
+  color:#333
+}
+.btn-block{
+  width: auto;
+}
+.input-groupE{
+  margin: 10px 0px 10px 0px !important;
+}
+/*sass*/
+.col-8{
+  flex: none !important; 
+  max-width: 100% !important;
+}
+
+/*logo*/
+.select-logo {
+  padding-right: 0px;
+  vertical-align: top;
+      right: 35px;
+    position: absolute;
+}
+.select-logo-sub {
+  display: table-cell;
+  vertical-align: middle;
+}
+.logo-spacer {
+  padding-right: 13px;
+}
+.pymt-type-name {
+  font-weight: 500;
+  font-size: 12pt;
+  padding-bottom: 8px;
+  color: #5a6977;
+}
+.pymt-type-desc {
+  padding-bottom: 22px;
+  width:70%;
+    font-size:14px;
+}
+.hr {
+  border-bottom: 1px solid #ebf0f5;
+  padding-bottom: 5px;
+}
+.row-payment-method {
+  margin: 0px 0px 0px 0px;
+  padding: 22px 0px 11px 0px;
+  text-align: left;
+  display: table;
+}
+.payment-row-last {
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 100%;
+}
+.select-txt {
+  display: table-cell;
+  vertical-align: middle;
+  word-wrap: break-word;
+  height: 60px;
+  text-align: left;
+  padding-left: 15px;
+  font-size: 12pt;
+}
+.select-icon {
+  display: table-cell;
+  vertical-align: top;
+  text-align: left;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  width: 24px;
+  height: 24px;
+}
+input[id^="radio"]:checked + label
+{
+    background-image:url("https://www.dropbox.com/s/8634yi8i1s7fx7w/radio-active.png?raw=1");
+    height: 26px;
+    width: 24px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    cursor:pointer;
+}

@@ -1,0 +1,30 @@
+body{
+ margin-top: 40px;
+ background-color: #eee;
+}
+.divesOuter{
+	background-color: white;
+	border-color: black;
+	padding: 10px;
+	margin: 10px 100px 10px 100px;
+	width: 80%;
+	border-radius: 3px;
+	border-width: thin;
+}
+.divesInner{
+	background-color: white;
+	border-color: black;
+	padding: 10px 100px 10px 100px;
+	margin: 10px;
+	border-radius: 3px;
+	border-width: thin;
+}
+@media screen and (max-width: 992px) {
+	.divesInner{
+	padding: 10px 20px 10px 20px;
+	}
+	.divesOuter{
+		width: 100%;
+		margin: 10px 10px 10px 10px;
+	}
+}

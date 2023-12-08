@@ -1,0 +1,134 @@
+/* [Object] Modal
+ * =============================== */
+.customModal {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  background: rgba(0,0,0, .4);
+  transition: opacity .25s ease;
+  z-index: 1;
+}
+
+.customModal__bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.customModal-state {
+  display: none;
+}
+
+.customModal-state:checked + .customModal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.customModal-state:checked + .customModal .customModal__inner {
+  top: 0;
+}
+
+.customModal__inner {
+  transition: top .25s ease;
+  position: absolute;
+  top: -20%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  overflow: auto;
+  margin: auto;
+  background: #fff;
+  border-radius: 5px;
+  padding: 1em 2em;
+  height: 80%;
+}
+
+.customModal__close {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  width: 1.1em;
+  height: 1.1em;
+  cursor: pointer;
+}
+
+.customModal__close:after,
+.customModal__close:before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 1.5em;
+  background: #ccc;
+  display: block;
+  transform: rotate(45deg);
+  left: 50%;
+  margin: -3px 0 0 -1px;
+  top: 0;
+}
+
+.customModal__close:hover:after,
+.customModal__close:hover:before {
+  background: #aaa;
+}
+
+.customModal__close:before {
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 768px) {
+	
+  .customModal__inner {
+    width: 90%;
+    height: 90%;
+    box-sizing: border-box;
+  }
+}
+
+
+.btnModal {
+  cursor: pointer;
+  background: #27ae60;
+  display: inline-block;
+  padding: .5em 1em;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.btnModal:hover,
+.btnModal:focus {
+  background: #2ecc71;
+}
+
+.btnModal:active {
+  background: #27ae60;
+  box-shadow: 0 1px 2px rgba(0,0,0, .2) inset;
+}
+
+.btnModal--blue {
+  background: #2980b9;
+}
+
+.btnModal--blue:hover,
+.btnModal--blue:focus {
+  background: #3498db;
+}
+
+.btnModal--blue:active {
+  background: #2980b9;
+}
+
+p img {
+  max-width: 200px;
+  height: auto;
+  float: left;
+  margin: 0 1em 1em 0;
+}

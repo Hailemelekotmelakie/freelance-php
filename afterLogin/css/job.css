@@ -1,0 +1,198 @@
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+ body{
+  font-family: "Poppins", sans-serif;
+  background: #f5f0f0 !important;  
+}
+  /*felex items in the first two bosk*/
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .flex-item-left {
+    background-color: white;
+    padding: 10px;
+    flex: 70%;
+    margin: 10px;
+    border-radius: 5px;
+  }
+
+  .flex-item-right {
+    background-color: white;
+    padding: 10px;
+    flex: 30%;
+    margin: 10px;
+    border-radius: 5px;
+  }
+
+  /*search*/
+  .searchBarDiv{
+    padding: 10px 40px 10px 30px;
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+  }
+  .searchBar {
+    width: auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 0px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  .searchBarButton{
+   padding: 12px 12px 12px 0px;
+   width: 100px;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+   background-color: #14a800;
+   /*background-image: url('searchicon.png');*/
+  	  /*background-position: 10px 10px; 
+  	  background-repeat: no-repeat;*/
+    }
+  /*  .searchBar:focus{
+      width: 55%;
+    }*/
+    .searchBarButton:hover{
+      background-color: #34D399;
+    }
+    .searchBar:hover {
+     background-color: #efebeb ;
+   }
+   @media (max-width: 800px) {
+     .flex-item-left {
+      display: none;
+      
+    }
+    .searchBar {
+      width: 100px;
+      padding:2px 2px 2px 2px;
+      font-size: 10px;
+    }
+    .searchBarButton{
+     padding: 2px 0px 2px 0px;
+     font-size: 10px;
+   }
+   .searchBarDiv{
+     padding: 5px 10px 5px 5px;
+     background-color: white;
+     margin: 10px 10px 10px 10px;
+   }
+  }
+
+  .buttonListsDiv{
+    padding: 10px 40px 10px 30px;
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    width: 68%;
+    /*font-family: 'Muli',sans-serif !important;*/
+  }
+
+  .buttonsList {
+    border: none;
+    outline: none;
+    padding: 10px 10px 0px 16px;
+    /*cursor: pointer;*/
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .buttonsList:active, .buttonsList:hover{
+  	background-color: #f0eee9;
+  }
+  .buttonsListActive{
+    color: green;
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-thickness: 1px; 
+    background-color: #e8e6df; 
+    border-radius: 5px;
+  }
+  .jobListsDiv{
+    padding: 0px 40px 10px 30px;
+    background-color: white;
+    margin: 0px 10px 10px 10px;
+    border-radius: 5px;
+    width: 68%;
+  }
+  .jobsCategoryText{
+    font-size: 23px;
+  }
+  .jobsParagraphText{
+    font-size: 15px;
+  }
+  .jobsFootprintText{
+    font-size: 16px;
+    color: #999999;
+    /*text-align: right;*/
+    float: right;
+    font-weight: 600;
+  }
+  .singleMilestoneDes{
+    border-top-style: solid;
+    border-top-color: green;
+    border-top-width: 1px;
+    padding: 20px 10px 10px 10px;
+  }
+  .singleMilestoneDes:hover{
+    background-color: #f0eee9;
+    transition: 0.9s;
+    cursor: pointer;
+  }
+  /*contact me button*/
+  .contactMeButton {
+    /*box-sizing: border-box;*/
+    background-color: #29e652;
+    border: 1px solid red;
+    border-radius: 6px;
+    color: black;
+    cursor: pointer;
+    /*align-self: flex-start;*/
+    /*font-size: 10px;*/
+    /*line-height: 1;*/
+    padding: 5px;
+    text-decoration: none;
+    /*text-align: center;*/
+    /*text-transform: uppercase;*/
+    font-weight: 700;
+    /*float: left;*/
+    border-color: #1dbf73;
+    box-shadow: 0 0 40px 40px #1dbf73 inset, 0 0 0 0 #1dbf73;
+    transition: all 150ms ease-in-out;
+  }
+  .contactMeButton:hover {
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0 10px 0 #1dbf73 inset, 0 0 10px 4px #1dbf73;
+  }
+  @media(max-width: 700px){
+    .buttonListsDiv,.singleMilestoneDes{
+      width: 100%;
+    }
+    .jobsFootprintText{
+      font-size: 13px;
+      color: green;
+    }
+  }
+  .nameTransformation{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: left;
+    padding: 20px;
+    color: black;
+  }
+

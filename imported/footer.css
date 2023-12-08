@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+body{
+      font-family: "Poppins", sans-serif;
+}
+footer{
+
+    background:#22AE6E;
+    height: auto;
+    width: 100%;
+    color: black;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 23px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 5px auto;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: green;
+    border: 4px solid white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.socials a i{
+    font-size: 1.3rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: white;
+}
+.footer-bottom{
+    background-color: #198F59;
+    text-align: center;
+    margin:0px;
+    padding:30px 0px 50px 20px;
+}
+.footer-bottom p{
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 400;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+  padding-right: 10px;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: white;
+}
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.footer-bottom a,p{
+    font-size: 8px;
+    text-transform: capitalize;
+}
+
+.footer-content p{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.footer-content h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+}

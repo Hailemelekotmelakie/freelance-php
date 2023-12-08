@@ -1,0 +1,61 @@
+
+<link rel="stylesheet" type="text/css" href="not.css">
+<a href = "#"><i class="fas fa-archive"></i></a>
+<div class = "notification">
+  <a href = "#">
+  <div class = "notBtn" href = "#">
+    <!--Number supports double digets and automaticly hides itself when there is nothing between divs -->
+    <div class = "number">
+      <?php
+        //browsers email
+            $email = $_SESSION['email'];
+            $sql_st = "SELECT * FROM usertable WHERE email = '$email'";
+            $run_Sql = mysqli_query($con, $sql_st);
+            $fetch_info = mysqli_fetch_assoc($run_Sql);
+            $outgoingid = $fetch_info['id'];
+    
+        $notNum=0;
+        $sql = "SELECT * FROM messages WHERE messageStatus='1' AND outgoing ='$outgoingid';"; 
+             $result = mysqli_query($con, $sql);
+             if (mysqli_num_rows($result)>0) {
+               while($row = mysqli_fetch_assoc($result)) {
+                
+                  $notNum=$notNum+1;
+                }
+                  ?>
+          <p ><?php echo $notNum ?></p>
+                  <?php
+        }else{
+         echo "0";
+        }
+        ?>
+    </div>
+    <i class="fas fa-bell"></i>
+      <div class = "box">
+        <div class = "display">
+          <div class = "nothing"> 
+            <i class="fas fa-child stick"></i> 
+            <div class = "cent">Looks Like your all caught up!</div>
+          </div>
+          <div class = "cont"><!-- Fold this div and try deleting evrything inbetween -->
+             <div class = "sec new">
+               <a href = "">
+               
+               </a>
+            </div>
+            
+           
+             
+             <div class = "sec">
+               <a href = "#">
+              
+               </a>
+            </div>
+             
+
+         </div>
+        </div>
+     </div>
+  </div>
+    </a>
+</div>
